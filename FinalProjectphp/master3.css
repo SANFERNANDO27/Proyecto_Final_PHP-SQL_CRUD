@@ -1,0 +1,169 @@
+#login{
+	margin-right: 12.5px;
+}
+.imgSlide{
+	height: 360px;
+}
+#DivProductos{
+	padding: 200px;
+}
+#TituloDivProductos{
+	font-family: arial;
+}
+.DivProductos{
+	box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
+	width: 256px;
+	height: 256px;
+}
+.DivProductosContenidoVistaPrevia{
+	background-color: #dc3545;
+}
+.TextContent{
+	font-family: arial;
+}
+.DivPadding{
+	padding: 20px;
+}
+.buttonVer{
+	margin-top: 40px;
+	display: flex;
+}
+.Priceh4{
+	margin-left: 10px;
+}
+.divTarjetaDePrdoucto{
+	box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
+	width: 256px;
+	height: 256px;
+	overflow: hidden;
+}
+.divTarjetaDePrdoucto:hover{
+	transition: 1s;
+	width: 256px;
+	height: 512px;
+}
+.columns{
+	margin-top: 50px;
+}
+.tfoot{
+	background-color: red;
+}
+.navLink:hover{
+font-size: 17.5px;
+}
+.loginDiv{
+	width: 320px;
+	height: 570px;
+	background: #000;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-top: 150px;
+}
+.loginDiv .avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.loginDiv h1{
+	margin: 0;
+	padding: 0, 0, 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.loginDiv label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+.loginDiv input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginDiv input[type="text"],
+.loginDiv input[type="password"],
+.loginDiv input[type="email"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginDiv input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.loginDiv input[type="submit"]:hover{
+	background: #e80f22;
+}
+.loginDiv a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+.loginDiv a:hover{
+	color: #fff;
+}
+.fotoDePerfil{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.userName{
+	font-family: sans-serif;
+	margin-right: 25px;
+	font-size: 32px;
+}
+.perfilDiv{
+	width: 100%;
+	padding: 50px;
+}
+.perfil{
+	width: 256px;
+	height: 256px;
+	border-radius: 50%;
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+.fotoDePerfilDiv{
+	width: 512px;
+	height: 330px;
+	box-shadow: 0px 1px  grey;
+	margin-left: 400px;
+}
+.fotoDePerfilDiv h1{
+	margin-left: auto;
+	text-align: center;
+}
+.perfilContentDiv{
+	margin-top: 10px;
+	margin-left: 425px;
+	width: 512px;
+}
+.editInputs{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+	width: 480px;
+	margin-bottom: 10px;
+}
